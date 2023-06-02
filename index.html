@@ -28,50 +28,67 @@
   </head>
   <body class="">
     <div
-      class="box-border bg-slate-300 h-screen flex sm:items-center sm:justify-center sm:p-10"
+      class="box-border flex h-screen sm:items-center sm:justify-center sm:p-10"
     >
       <div class="">
-        <div
-          class="grid sm:grid-cols-2 bg-slate-200 h-auto sm:rounded-3xl shadow-2xl"
-        >
+        <div class="grid h-auto shadow-2xl sm:grid-cols-2 sm:rounded-3xl">
           <div
-            class="max-w-full bg-gradient-to-b from-vio1 to-vio2 h-96 rounded-b-3xl sm:rounded-3xl p-10 shadow-md flex flex-col items-center justify-between"
+            class="flex h-auto max-w-full flex-col items-center justify-between rounded-b-3xl bg-gradient-to-b from-vio1 to-vio2 p-10 shadow-md sm:rounded-3xl"
           >
-            <p class="text-sm">Your Result</p>
+            <p class="text-sm text-violet-100">Your Result</p>
 
             <div
-              class="m-8 h-32 w-32 bg-gradient-to-b from-circle1 to-circle2 rounded-full flex items-center justify-center flex-col"
+              class="m-8 flex h-40 w-40 flex-col items-center justify-center rounded-full bg-gradient-to-b from-circle1 to-circle2"
             >
-              <p class="text-white font-bold text-5xl">76</p>
-              <p class="text-fuchsia-300 mt-1">of 100</p>
+              <p class="text-5xl font-bold text-white">76</p>
+              <p class="mt-1 text-fuchsia-300">of 100</p>
             </div>
-            <div class="text-white">Great</div>
-            You scored higher than 65% of the people who have taken these tests.
+            <div class="text-violet-200">Great</div>
+            <p class="text-violet-100/60">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
           </div>
-          <div class="flex flex-col items-center pr-10 pl-10 gap-4 mt-8">
+          <div class="mt-8 flex flex-col items-center gap-4 pl-10 pr-10">
             <p class="w-full font-bold">Summary</p>
-            <div class="p-2 rounded-md bg-red-200 w-full flex justify-between">
-              <p class="">Reaction</p>
-              <p>80 / 100</p>
-            </div>
-            <div class="p-2 rounded-md bg-blue-200 w-full flex justify-between">
-              <p>Memory</p>
-              <p>92 / 100</p>
+            <div
+              class="flex w-full justify-between rounded-md bg-red-200/60 p-3 pl-6 pr-6"
+            >
+              <p>Reaction</p>
+              <div class="flex">
+                <p class="font-bold">80</p>
+                <p>&nbsp/ 100</p>
+              </div>
             </div>
             <div
-              class="p-2 rounded-md bg-green-200 w-full flex justify-between"
+              class="flex w-full justify-between rounded-md bg-yellow-200/60 p-3 pl-6 pr-6"
+            >
+              <p>Memory</p>
+              <div class="flex">
+                <p class="font-bold">92</p>
+                <p>&nbsp/ 100</p>
+              </div>
+            </div>
+            <div
+              class="flex w-full justify-between rounded-md bg-blue-200/60 p-3 pl-6 pr-6"
             >
               <p>Verbal</p>
-              <p>61 / 100</p>
+              <div class="flex">
+                <p class="font-bold">61</p>
+                <p>&nbsp/ 100</p>
+              </div>
             </div>
             <div
-              class="p-2 rounded-md bg-yellow-200 w-full flex justify-between"
+              class="flex w-full justify-between rounded-md bg-violet-200/60 p-3 pl-6 pr-6"
             >
               <p>Visual</p>
-              <p>72 / 100</p>
+              <div class="flex">
+                <p class="font-bold">72</p>
+                <p>&nbsp/ 100</p>
+              </div>
             </div>
             <p
-              class="p-2 rounded-3xl text-white text-center bg-blue-800 hover:cursor-pointer w-full mb-8"
+              class="mb-8 w-full rounded-3xl bg-blue-800 p-2 text-center text-white hover:cursor-pointer"
             >
               Continue
             </p>
